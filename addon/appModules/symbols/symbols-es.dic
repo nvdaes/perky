@@ -1,0 +1,29 @@
+﻿symbols:
+$	é	char	norep	# $
+1	potencia	char	norep	# 1
+2	abrir paréntesis	char	norep	# 2
+3	puntos 1 4 6	char	norep	# 3
+4	puntos 1 4 5 6	char	norep	# 4
+5	fin de índice	char	norep	# 5
+6	raíz	char	norep	# 6
+7	ñ	char	norep	# 7
+8	ü	char	norep	# 8
+9	menor que	char	norep	# 9
+0	ó	char	norep	# 0
+(	á	none	norep
+{	resaltador	none	norep
+_	guion bajo	none	norep
+!	exclamación	none	norep
+?	interrogación	none	norep
+'	punto 4	none	norep
+)	ú	none	norep
+}	mayúscula	none	norep
+*	división	none	norep
+/	í	none	norep
+\\	generador	none	norep
+&	ampersand	none	norep
+%	barra vertical	none	norep
+^	negación	none	norep
+>	grados	none	norep
+|	cerrar paréntesis	none	norep
+"	interruptor	none	norep
