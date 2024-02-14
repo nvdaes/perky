@@ -28,6 +28,7 @@ SYMBOLS_DIR = "symbols"
 
 addonHandler.initTranslation()
 
+
 def disableInSecureMode(decoratedCls):
 	if globalVars.appArgs.secure:
 		return appModuleHandler.AppModule
@@ -39,14 +40,18 @@ class SymbolProcessor:
 	def __init__(self):
 		characterProcessing.clearSpeechSymbols()
 		try:
-			symbolProcessor = characterProcessing._localeSpeechSymbolProcessors.fetchLocaleData(speech.getCurrentLanguage())
+			symbolProcessor = characterProcessing._localeSpeechSymbolProcessors.fetchLocaleData(
+				speech.getCurrentLanguage()
+			)
 		except LookupError:
 			symbolProcessor = characterProcessing._localeSpeechSymbolProcessors.fetchLocaleData("en")
-		pathToDict = os.path.join(os.path.dirname(__file__), SYMBOLS_DIR, os.path.basename(symbolProcessor.userSymbols.fileName))
+		pathToDict = os.path.join(
+			os.path.dirname(__file__), SYMBOLS_DIR, os.path.basename(symbolProcessor.userSymbols.fileName)
+		)
 		self.pathToDict = pathToDict
 		try:
 			symbolProcessor.userSymbols.load(pathToDict)
-		except Exception as e:
+		except Exception:
 			pass
 		characterProcessing._localeSpeechSymbolProcessors.invalidateLocaleData(symbolProcessor.locale)
 		self.locale = symbolProcessor.locale
@@ -87,7 +92,7 @@ class EnhancedDocument(KeyboardHandlerBasedTypedCharSupport):
 	def event_typedCharacter(self, ch):
 		super().event_typedCharacter(ch)
 		charsToSuppress = (u"\b", "\r", "\n")
-		if config.conf["keyboard"]["speakTypedCharacters"] and not ch in charsToSuppress:
+		if config.conf["keyboard"]["speakTypedCharacters"] and ch not in charsToSuppress:
 			self._shouldReportChars = 1
 		else:
 			self._shouldReportChars = 0
@@ -129,9 +134,9 @@ class EnhancedDocument(KeyboardHandlerBasedTypedCharSupport):
 	def script_showSelectionConvertedToBraille(self, gesture):
 		obj = api.getFocusObject()
 		try:
-			info=obj.makeTextInfo(textInfos.POSITION_SELECTION)
+			info = obj.makeTextInfo(textInfos.POSITION_SELECTION)
 		except (RuntimeError, NotImplementedError):
-			info=None
+			info = None
 		if not info or info.isCollapsed:
 			# Translators: The message reported when there is no selection
 			ui.message(_("No selection"))
@@ -152,9 +157,9 @@ class EnhancedDocument(KeyboardHandlerBasedTypedCharSupport):
 	def script_showSelectedText(self, gesture):
 		obj = api.getFocusObject()
 		try:
-			info=obj.makeTextInfo(textInfos.POSITION_SELECTION)
+			info = obj.makeTextInfo(textInfos.POSITION_SELECTION)
 		except (RuntimeError, NotImplementedError):
-			info=None
+			info = None
 		if not info or info.isCollapsed:
 			# Translators: The message reported when there is no selection
 			ui.message(_("No selection"))
