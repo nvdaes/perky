@@ -82,7 +82,7 @@ class PerkySpeechSymbolsDialog(SpeechSymbolsDialog):
 		bHelper.addButton(
 			parent=self,
 			# Translators: The label for a button in the Perky speech symbols dialog.
-			label=_("&Save dictionary...")
+			label=_("Save dictio&nary...")
 		).Bind(wx.EVT_BUTTON, self.onSaveClick)
 		bHelper.addButton(
 			parent=self,
