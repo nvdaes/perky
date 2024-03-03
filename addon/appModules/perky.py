@@ -94,7 +94,8 @@ class PerkySpeechSymbolsDialog(SpeechSymbolsDialog):
 
 	def onSaveClick(self, evt):
 		filename = wx.FileSelector(
-			_("Save As"), default_filename="newSpeechSymbols.dic", default_path=os.path.join(os.path.dirname(__file__), SYMBOLS_DIR),
+			_("Save As"), default_filename="newSpeechSymbols.dic",
+			default_path=os.path.join(os.path.dirname(__file__), SYMBOLS_DIR),
 			flags=wx.FD_SAVE | wx.FD_OVERWRITE_PROMPT, parent=self
 		)
 		if not filename:
