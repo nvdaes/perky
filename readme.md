@@ -13,6 +13,6 @@ This add-on is used to improve the reading experience with Perky Duck, available
 
 The following commands can be assigned from NVDA's menu, Preferences submenu, Input gestures dialog, Perky Duck category. This will be available from Perky Duck documents:
 
-* Opens the symbols dialog for reading characters typed in Perky.
+* Opens the symbols dialog for reading characters typed in Perky. From this dialog, you can save and choose symbols dictionaries.
 * Shows the selected text converted to braille using symbols for the current language.
 * Shows the selected text in browse mode.
