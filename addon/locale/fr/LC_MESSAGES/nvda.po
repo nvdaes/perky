@@ -1,0 +1,81 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the perky package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: perky 1.0.0\n"
+"Report-Msgid-Bugs-To: nvda-translations@groups.io\n"
+"POT-Creation-Date: 2024-04-27 06:45+0000\n"
+"PO-Revision-Date: 2024-05-05 18:25+0200\n"
+"Last-Translator: Rémy Ruiz <remyruiz@gmail.com>\n"
+"Language-Team: \n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.4.2\n"
+
+#. Translators: The label for a button in the Perky speech symbols dialog.
+msgid "Save dictio&nary..."
+msgstr "Enregistrer le dictio&nnaire..."
+
+#. Translators: The label for a button in the Perky speech symbols dialog.
+msgid "&Choose dictionary..."
+msgstr "&Choisissez le dictionnaire..."
+
+msgid "Save As"
+msgstr "Enregistrer sous"
+
+msgid "Select dictionary..."
+msgstr "Sélectionnez le dictionnaire..."
+
+#. Translators: message presented in input mode.
+msgid "Opens the symbols dialog for reading characters typed in Perky"
+msgstr ""
+"Ouvre la boîte de dialogue des symboles pour lire les caractères saisis "
+"dans Perky"
+
+#. Translators: message presented in input mode.
+msgid ""
+"Shows the selected text converted to braille using symbols for the current "
+"language"
+msgstr ""
+"Affiche le texte sélectionné converti en braille à l'aide des symboles de "
+"la langue actuelle"
+
+#. Translators: The message reported when there is no selection
+msgid "No selection"
+msgstr "Pas de sélection"
+
+#. Translators: title of NVDA message showing text converted to braille.
+#, python-format
+msgid "Text converted to braille symbols (%s)"
+msgstr "Texte converti en symboles braille (%s)"
+
+#. Translators: message presented in input mode.
+msgid "Shows the selected text in browse mode"
+msgstr "Affiche le texte sélectionné en mode navigation"
+
+msgid "Raw selected text"
+msgstr "Texte brut sélectionné"
+
+#. Add-on summary, usually the user visible name of the addon.
+#. Translators: Summary for this add-on to be shown on installation and add-on information.
+msgid "Perky Duck"
+msgstr "Perky Duck"
+
+#. Add-on description
+#. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
+msgid ""
+"Improves the reading experiencewith Perky Duck.\n"
+"\tPerky Duck can be found at\n"
+"\thttps://www.duxburysystems.com \n"
+"\t"
+msgstr ""
+"Améliore l'expérience de lecture avec Perky Duck.\n"
+"\tPerky Duck peut être trouvé à\n"
+"\thttps://www.duxburysystems.com \n"
+"\t"
