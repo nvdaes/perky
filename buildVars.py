@@ -22,7 +22,7 @@ addon_info = {
 	https://www.duxburysystems.com 
 	"""),
 	# version
-	"addon_version": "1.0.0",
+	"addon_version": "2.0.0",
 	# Author(s)
 	"addon_author": u"Alejandro Iván Castro Orozco <alivcaor@gmail.com>, Noelia Ruiz Martínez <nrm1977@gmail.com>, Abdel <abdelkrim.bensaid@gmail.com>",
 	# URL for the add-on documentation support
