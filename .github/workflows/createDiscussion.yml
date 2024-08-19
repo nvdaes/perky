@@ -19,7 +19,7 @@ jobs:
       uses: nvdaes/get-repository-id@main
     - name: Create discussion
       id: createDiscussion
-      uses: abirismyname/create-discussion@v1.1.0
+      uses: abirismyname/create-discussion@v1.2.0
       env:
         GH_TOKEN: ${{ github.token }}      
       with:
