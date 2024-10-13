@@ -22,7 +22,7 @@ addon_info = {
 	https://www.duxburysystems.com 
 	"""),
 	# version
-	"addon_version": "1.0.0",
+	"addon_version": "5.0.0",
 	# Author(s)
 	"addon_author": u"Alejandro Iván Castro Orozco <alivcaor@gmail.com>, Noelia Ruiz Martínez <nrm1977@gmail.com>, Abdel <abdelkrim.bensaid@gmail.com>",
 	# URL for the add-on documentation support
@@ -32,7 +32,7 @@ addon_info = {
 	# Minimum NVDA version supported (e.g. "2018.3")
 	"addon_minimumNVDAVersion": "2023.3",
 	# Last NVDA version supported/tested (e.g. "2018.4", ideally more recent than minimum version)
-	"addon_lastTestedNVDAVersion": "2024.1",
+	"addon_lastTestedNVDAVersion": "2024.3",
 	# Add-on update channel (default is stable or None)
 	"addon_updateChannel": None,
 }
