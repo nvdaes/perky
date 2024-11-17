@@ -94,7 +94,9 @@ class EnhancedDocument(KeyboardHandlerBasedTypedCharSupport):
 		ui.browseableMessage(
 			processedText,
 			# Translators: title of NVDA message showing text converted to braille.
-			_("Text converted to braille symbols (%s)" % languageHandler.getLanguageDescription(languageHandler.getLanguage()))
+			_("Text converted to braille symbols ({languageDescription})").format(
+				languageDescription=languageHandler.getLanguageDescription(languageHandler.getLanguage())
+			)
 		)
 
 	@script(
