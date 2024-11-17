@@ -82,6 +82,7 @@ brailleTables = {}
 # mandatory (True when always enabled, False when not.
 symbolDictionaries = {
 	"es": {
+		# Translators: Display name for a speech symbols dictionary.
 		"displayName": _("Perky Duck (Spanish)"),
 		"mandatory": False
 	}

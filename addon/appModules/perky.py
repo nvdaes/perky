@@ -116,7 +116,7 @@ class EnhancedDocument(KeyboardHandlerBasedTypedCharSupport):
 		selectedText = info.text
 		ui.browseableMessage(
 			selectedText,
-			# Translator: Title for a message dialog showing raw selected text.
+			# Translators: Title for a message dialog showing raw selected text.
 			_("Raw selected text")
 		)
 
