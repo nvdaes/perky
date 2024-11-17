@@ -39,7 +39,7 @@ class EnhancedDocument(KeyboardHandlerBasedTypedCharSupport):
 		processedText = ""
 		for ch in text:
 			if not ch.isspace():
-				ch = characterProcessing.processSpeechSymbol(languageHandler.getLanguage(), ch)
+				ch = characterProcessing.processSpeechSymbol(speech.getCurrentLanguage(), ch)
 			processedText += ch
 		return processedText
 
@@ -95,7 +95,7 @@ class EnhancedDocument(KeyboardHandlerBasedTypedCharSupport):
 			processedText,
 			# Translators: title of NVDA message showing text converted to braille.
 			_("Text converted to braille symbols ({languageDescription})").format(
-				languageDescription=languageHandler.getLanguageDescription(languageHandler.getLanguage())
+				languageDescription=languageHandler.getLanguageDescription(speech.getCurrentLanguage())
 			)
 		)
 
