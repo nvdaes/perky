@@ -13,17 +13,24 @@ ile okuma deneyimini geliştirmek için kullanılır.
 * Perky Duck belgelerinde NVDA'nın konuşarak yazılan karakterleri kullanma
   olanağını ekler.
 
-### Komutlar ###
+## Komutlar ##
 
 Aşağıdaki komutlar NVDA menüsünden, Tercihler alt menüsünden, Girdi
 hareketleri iletişim kutusundan, Perky Duck kategorisinden atanabilir. Bu
 komutlara Perky Duck belgelerinden ulaşılabilir:
 
-* Perky'de yazılan karakterleri okumak için semboller iletişim kutusunu
-  açar. Bu iletişim kutusunda sembol sözlüklerini kaydedebilir ve
-  seçebilirsiniz.
 * Geçerli dilin simgeleri kullanılarak braille'e dönüştürülmüş seçili metni
   gösterir.
 * Seçilen metni göz atma modunda gösterir.
+
+## 7.0.0 için değişiklikler ##
+
+* Olası sorunlardan kaçınmak için Perky Duck belgelerinden konuşma simgeleri
+  sözlüklerini ekleme ve özelleştirme iletişim kutusu kaldırıldı.
+* Perky Duck ispanyolca konuşma sembolleri sözlüğü, NVDA'nın Konuşma
+  ayarları iletişim kutusundan etkinleştirilebilir veya devre dışı
+  bırakılabilir.
+* Uygulama etkinken bu veya diğer sözlükleri el ile veya otomatik olarak
+  etkinleştirmek için yapılandırma profilleri kullanılabilir.
 
 [[!tag dev stable]]

@@ -13,16 +13,23 @@ saatavilla osoitteessa <https://www.duxburysystems.com>.
 * Lisää mahdollisuuden käyttää NVDA:n Puhu kirjoitetut merkit -ominaisuutta
   Perky Duck -asiakirjoissa.
 
-### Komennot ###
+## Komennot ##
 
 Seuraavat komennot voidaan määrittää NVDA-valikosta avaamalla
 Asetukset-alivalikko, valitsemalla Näppäinkomennot ja sitten Perky Duck
 -kategoria. Nämä ovat käytettävissä Perky Duck -asiakirjoissa:
 
-* Opens the symbols dialog for reading characters typed in Perky. From this
-  dialog, you can save and choose symbols dictionaries.
 * Näyttää valitun tekstin pistekirjoitukseksi muunnettuna nykyisen kielen
   symboleita käyttäen.
 * Näyttää valitun tekstin selaustilassa.
+
+## Changes for 7.0.0 ##
+
+* To avoid possible issues, the dialog to add and customize speech symbols
+  dictionaries from Perky Duck documents has been removed.
+* The Perky Duck spanish speech symbols dictionary can be enabled or
+  disabled from NVDA's Speech settings dialog.
+* Configuration profiles may be used to enable this or other dictionaries,
+  manually or automatically when the application is active.
 
 [[!tag dev stable]]

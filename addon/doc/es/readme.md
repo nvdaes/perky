@@ -13,16 +13,24 @@ Duck, disponible en <https://www.duxburysystems.com>.
 * Agrega la posibilidad de usar la función de verbalizar caracteres al
   escribir de NVDA en documentos de Perky Duck.
 
-### Órdenes ###
+## Órdenes ##
 
 Se pueden asignar las siguientes órdenes desde el menú NVDA, submenú
 Preferencias, diálogo Gestos de entrada, categoría Perky Duck. Estarán
 disponibles en los documentos de Perky Duck:
 
-* Abre el diálogo de símbolos para leer caracteres escritos en Perky. Desde
-  este diálogo, se pueden guardar y elegir diccionarios de símbolos.
 * Muestra el texto seleccionado convertido a braille usando símbolos del
   idioma actual.
 * Muestra el texto seleccionado en modo exploración.
+
+## Cambios para 7.0.0 ##
+
+* Para evitar posibles problemas, el diálogo para añadir y personalizar
+  diccionarios de pronunciación de símbolos en documentos de Perky Duck se
+  ha eliminado.
+* El diccionario de pronunciación de símbolos en español de Perky Duck puede
+  activarse o desactivarse desde el diálogo de opciones de voz de NVDA.
+* Se pueden usar perfiles de configuración para activar este u otros
+  diccionarios, manual o automáticamente cuando la aplicación está activa.
 
 [[!tag dev stable]]
