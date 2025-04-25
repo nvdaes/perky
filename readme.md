@@ -16,6 +16,10 @@ The following commands can be assigned from NVDA's menu, Preferences submenu, In
 * Shows the selected text converted to braille using symbols for the current language.
 * Shows the selected text in browse mode.
 
+## Changes for 9.0.0 ##
+
+* Added copy and close buttons to browseable messages.
+
 ## Changes for 7.0.0 ##
 
 * To avoid possible issues, the dialog to add and customize speech symbols dictionaries from Perky Duck documents has been removed.
