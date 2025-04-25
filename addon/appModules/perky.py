@@ -1,7 +1,7 @@
 # -*- coding: UTF-8 -*-
 # perky: app module for Perky Duck
 # https://www.duxburysystems.com
-# Copyright (C) 2024 Noelia Ruiz Martínez, other contributors
+# Copyright (C) 2025 Noelia Ruiz Martínez, other contributors
 # Released under GPL 2
 
 import addonHandler
