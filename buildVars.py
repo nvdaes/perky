@@ -19,7 +19,7 @@ addon_info = {
 	# Translators: Long description to be shown for this add-on on add-on information from add-ons manager
 	"addon_description": _("""Improves the reading experiencewith Perky Duck.
 	Perky Duck can be found at
-	https://www.duxburysystems.com 
+	https://www.duxburysystems.com
 	"""),
 	# version
 	"addon_version": "8.0.0",
@@ -84,6 +84,6 @@ symbolDictionaries = {
 	"es": {
 		# Translators: Display name for a speech symbols dictionary.
 		"displayName": _("Perky Duck (Spanish)"),
-		"mandatory": False
-	}
+		"mandatory": False,
+	},
 }
