@@ -30,7 +30,6 @@ def disableInSecureMode(decoratedCls):
 
 
 class EnhancedDocument(KeyboardHandlerBasedTypedCharSupport):
-
 	role = controlTypes.Role.DOCUMENT
 	scriptCategory = "Perky Duck"
 
@@ -55,7 +54,7 @@ class EnhancedDocument(KeyboardHandlerBasedTypedCharSupport):
 
 	def event_typedCharacter(self, ch):
 		super().event_typedCharacter(ch)
-		charsToSuppress = (u"\b", "\r", "\n")
+		charsToSuppress = ("\b", "\r", "\n")
 		if config.conf["keyboard"]["speakTypedCharacters"] and ch not in charsToSuppress:
 			self._shouldReportChars = 1
 		else:
@@ -70,14 +69,14 @@ class EnhancedDocument(KeyboardHandlerBasedTypedCharSupport):
 			speech.speakTextInfo(
 				self.getPriorCharacter(),
 				unit=textInfos.UNIT_CHARACTER,
-				reason=controlTypes.OutputReason.CARET
+				reason=controlTypes.OutputReason.CARET,
 			)
 		else:
 			return
 
 	@script(
 		# Translators: message presented in input mode.
-		description=_("Shows the selected text converted to braille using symbols for the current language")
+		description=_("Shows the selected text converted to braille using symbols for the current language"),
 	)
 	def script_showSelectionConvertedToBraille(self, gesture):
 		obj = api.getFocusObject()
@@ -95,13 +94,15 @@ class EnhancedDocument(KeyboardHandlerBasedTypedCharSupport):
 			processedText,
 			# Translators: title of NVDA message showing text converted to braille.
 			_("Text converted to braille symbols ({languageDescription})").format(
-				languageDescription=languageHandler.getLanguageDescription(speech.getCurrentLanguage())
-			)
+				languageDescription=languageHandler.getLanguageDescription(speech.getCurrentLanguage()),
+			),
+			copyButton=True,
+			closeButton=True,
 		)
 
 	@script(
 		# Translators: message presented in input mode.
-		description=_("Shows the selected text in browse mode")
+		description=_("Shows the selected text in browse mode"),
 	)
 	def script_showSelectedText(self, gesture):
 		obj = api.getFocusObject()
@@ -117,18 +118,18 @@ class EnhancedDocument(KeyboardHandlerBasedTypedCharSupport):
 		ui.browseableMessage(
 			selectedText,
 			# Translators: Title for a message dialog showing raw selected text.
-			_("Raw selected text")
+			_("Raw selected text"),
+			copyButton=True,
+			closeButton=True,
 		)
 
 
 class EnhancedStatusBar(IAccessible):
-
 	role = controlTypes.Role.STATUSBAR
 
 
 @disableInSecureMode
 class AppModule(appModuleHandler.AppModule):
-
 	def chooseNVDAObjectOverlayClasses(self, obj, clsList):
 		if DisplayModelEditableText in clsList:
 			clsList.insert(0, EnhancedDocument)
