@@ -96,7 +96,8 @@ class EnhancedDocument(KeyboardHandlerBasedTypedCharSupport):
 			# Translators: title of NVDA message showing text converted to braille.
 			_("Text converted to braille symbols ({languageDescription})").format(
 				languageDescription=languageHandler.getLanguageDescription(speech.getCurrentLanguage())
-			)
+			),
+				copyButton=True, closeButton=True
 		)
 
 	@script(
@@ -117,7 +118,8 @@ class EnhancedDocument(KeyboardHandlerBasedTypedCharSupport):
 		ui.browseableMessage(
 			selectedText,
 			# Translators: Title for a message dialog showing raw selected text.
-			_("Raw selected text")
+			_("Raw selected text"),
+			copyButton=True, closeButton=True
 		)
 
 
