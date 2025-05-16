@@ -23,13 +23,14 @@ Asetukset-alivalikko, valitsemalla Näppäinkomennot ja sitten Perky Duck
   symboleita käyttäen.
 * Näyttää valitun tekstin selaustilassa.
 
-## Changes for 7.0.0 ##
+## Muutokset versiossa 7.0.0 ##
 
-* To avoid possible issues, the dialog to add and customize speech symbols
-  dictionaries from Perky Duck documents has been removed.
-* The Perky Duck spanish speech symbols dictionary can be enabled or
-  disabled from NVDA's Speech settings dialog.
-* Configuration profiles may be used to enable this or other dictionaries,
-  manually or automatically when the application is active.
+* Mahdollisten ongelmien välttämiseksi Perky Duck -dokumentteihin liittyvä
+  puhesymbolisanastojen lisäys- ja mukautusvalintaikkuna on poistettu.
+* Perky Duckin espanjalainen puhesymbolisanasto voidaan ottaa käyttöön tai
+  poistaa käytöstä NVDA:n puheasetusten valintaikkunasta.
+* Asetusprofiileja voidaan käyttää tämän tai muiden sanastojen
+  käyttöönottamiseen joko käsin tai automaattisesti, kun sovellus on
+  aktiivisena.
 
 [[!tag dev stable]]
