@@ -21,6 +21,9 @@ jobs:
     continue-on-error: true
     runs-on: ubuntu-latest
 
+    permissions:
+      contents: write
+
     steps:
     - id: checkoutCode
       name: Checkout code
