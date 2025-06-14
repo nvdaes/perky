@@ -3,9 +3,9 @@ requires = ["setuptools~=72.0", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "urlShortener"
+name = "perky"
 dynamic = ["version"]
-description = "urlShortener add-on for NVDA"
+description = "perky add-on for NVDA"
 maintainers = [
 	{name = "Noelia ruiz Martínez", email = "nrm1977@gmail.com"},
 ]
@@ -25,7 +25,7 @@ dependencies = [
 ]
 
 [project.urls]
-Repository = "https://github.com/nvdaes/urlShortener"
+Repository = "https://github.com/nvdaes/perky"
 
 [tool.ruff]
 line-length = 110
