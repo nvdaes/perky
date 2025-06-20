@@ -5,7 +5,7 @@
 Tämä lisäosa parantaa lukukokemusta Perky Duck -sovelluksessa, joka on
 saatavilla osoitteessa <https://www.duxburysystems.com>.
 
-### Ominaisuudet ###
+## Ominaisuudet ##
 
 * Mahdollistaa NVDA:lle valinnanmuutosten havaitsemisen, kun UI Automation
   on poistettu käytöstä Perky Duck -sovelluksessa. Ilman lisäosaa NVDA
@@ -22,6 +22,10 @@ Asetukset-alivalikko, valitsemalla Näppäinkomennot ja sitten Perky Duck
 * Näyttää valitun tekstin pistekirjoitukseksi muunnettuna nykyisen kielen
   symboleita käyttäen.
 * Näyttää valitun tekstin selaustilassa.
+
+## Muutokset versiossa 9.0.0 ##
+
+* Lisätty selattaviin viesteihin Kopioi- ja Sulje-painikkeet.
 
 ## Muutokset versiossa 7.0.0 ##
 

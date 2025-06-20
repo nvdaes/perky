@@ -5,7 +5,7 @@
 Este complemento se usa para mejorar la experiencia de lectura con Perky
 Duck, disponible en <https://www.duxburysystems.com>.
 
-### Características ###
+## Características ##
 
 * Permite que NVDA detecte cambios de selección cuando UI Automation está
   desactivada en Perky Duck. Sin el complemento, NVDA sólo detecta estos
@@ -22,6 +22,10 @@ disponibles en los documentos de Perky Duck:
 * Muestra el texto seleccionado convertido a braille usando símbolos del
   idioma actual.
 * Muestra el texto seleccionado en modo exploración.
+
+## Cambios para 9.0.0 ##
+
+* Se añaden botones para copiar y cerrar a los mensajes explorables.
 
 ## Cambios para 7.0.0 ##
 

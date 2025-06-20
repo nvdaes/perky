@@ -5,7 +5,7 @@
 Esse complemento é usado para melhorar a experiência de leitura com o Perky
 Duck, disponível em <https://www.duxburysystems.com>.
 
-### Recursos ###
+## Recursos ##
 
 * Permite que o NVDA detecte alterações de seleção quando a automação da
   interface do usuário está desativada no Perky Duck. Sem o complemento, o
@@ -23,6 +23,10 @@ estará disponível nos documentos do Perky Duck:
 * Mostra o texto selecionado convertido em braile usando símbolos do idioma
   atual.
 * Mostra o texto selecionado no modo de navegação.
+
+## Changes for 9.0.0 ##
+
+* Added copy and close buttons to browseable messages.
 
 ## Alterações para a versão 7.0.0 ##
 

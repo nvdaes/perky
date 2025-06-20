@@ -5,7 +5,7 @@
 Bu eklenti, <https://www.duxburysystems.com> adresinde bulunan Perky Duck
 ile okuma deneyimini geliştirmek için kullanılır.
 
-### Özellikler ###
+## Özellikler ##
 
 * Perky Duck'ta UI Otomasyonu devre dışı bırakıldığında NVDA'nın seçim
   değişikliklerini algılamasını sağlar. Eklenti olmadan, NVDA bu
@@ -22,6 +22,10 @@ komutlara Perky Duck belgelerinden ulaşılabilir:
 * Geçerli dilin simgeleri kullanılarak braille'e dönüştürülmüş seçili metni
   gösterir.
 * Seçilen metni göz atma modunda gösterir.
+
+## 9.0.0 için değişiklikler ##
+
+* Göz atılabilir mesajlara kopyala ve kapat düğmeleri eklendi.
 
 ## 7.0.0 için değişiklikler ##
 
