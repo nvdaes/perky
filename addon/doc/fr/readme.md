@@ -23,9 +23,9 @@ Perky Duck. Ceci sera disponible à partir des documents de Perky Duck :
   la langue actuelle.
 * Affiche le texte sélectionné en mode navigation.
 
-## Changes for 9.0.0 ##
+## Changements pour la version 9.0.0 ##
 
-* Added copy and close buttons to browseable messages.
+* Les boutons Copier et Fermer ont été ajoutés au message navigable.
 
 ## Changements pour la version 7.0.0 ##
 
