@@ -5,7 +5,7 @@
 Cette extension est utilisée pour améliorer l'expérience de lecture avec
 Perky Duck, disponible sur <https://www.duxburysystems.com>.
 
-### Caractéristiques ###
+## Caractéristiques ##
 
 * Permet à NVDA de détecter les changements de sélection lorsque UI
   Automation est désactivé dans Perky Duck. Sans l'extension, NVDA détecte
@@ -22,6 +22,10 @@ Perky Duck. Ceci sera disponible à partir des documents de Perky Duck :
 * Affiche le texte sélectionné converti en braille à l'aide des symboles de
   la langue actuelle.
 * Affiche le texte sélectionné en mode navigation.
+
+## Changements pour la version 9.0.0 ##
+
+* Les boutons Copier et Fermer ont été ajoutés au message navigable.
 
 ## Changements pour la version 7.0.0 ##
 
