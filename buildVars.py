@@ -1,4 +1,3 @@
-
 # Build customizations
 # Change this file instead of sconstruct or manifest files, whenever possible.
 
@@ -13,42 +12,55 @@ from site_scons.site_tools.NVDATool.utils import _
 
 
 # Add-on information variables
-addon_info = {
-    # for previously unpublished addons, please follow the community guidelines at:
-    # https://bitbucket.org/nvdaaddonteam/todo/raw/master/guideLines.txt
-    # add-on Name, internal for nvda
-    "addon_name": "perky",
-    # Add-on summary, usually the user visible name of the addon.
-    # Translators: Summary for this add-on to be shown on installation and add-on information.
-    "addon_summary": _("Perky Duck"),
-    # Add-on description
-    # Translators: Long description to be shown for this add-on on add-on information from add-ons manager
-    "addon_description": _("""Improves the reading experiencewith Perky Duck.\n\tPerky Duck can be found at\n\thttps://www.duxburysystems.com\n\t"""),
-    # version
-    "addon_version": "10.0.0",
-    # Brief changelog for this version
-    # Translators: what's new content for the add-on version to be shown in the add-on store
-    "addon_changelog": _("* Compatible with NVDA 2026.1."),
-    # Author(s)
-    "addon_author": u"Alejandro Iván Castro Orozco <alivcaor@gmail.com>, Noelia Ruiz Martínez <nrm1977@gmail.com>, Abdel <abdelkrim.bensaid@gmail.com>",
-    # URL for the add-on documentation support
-    "addon_url": "https://github.com/nvdaes/perky",
-    # Documentation file name
-    "addon_docFileName": "readme.html",
-    # Minimum NVDA version supported (e.g. "2018.3")
-    "addon_minimumNVDAVersion": "2026.1",
-    # Last NVDA version supported/tested (e.g. "2018.4", ideally more recent than minimum version)
-    "addon_lastTestedNVDAVersion": "2026.1",
-    # Add-on update channel (default is stable or None)
-    "addon_updateChannel": None,
-}
+addon_info = AddonInfo(
+	# add-on Name/identifier, internal for NVDA
+	addon_name="perky",
+	# Add-on summary/title, usually the user visible name of the add-on
+	# Translators: Summary/title for this add-on
+	# to be shown on installation and add-on information found in add-on store
+	addon_summary=_("Perky Duck"),
+	# Add-on description
+	# Translators: Long description to be shown for this add-on on add-on information from add-on store
+	addon_description=_("""Improves the reading experiencewith Perky Duck.\n\tPerky Duck can be found at\n\thttps://www.duxburysystems.com\n\t"""),
+	# version
+	addon_version="10.0.0",
+	# Brief changelog for this version
+	# Translators: what's new content for the add-on version to be shown in the add-on store
+	addon_changelog=_("* Compatible with NVDA 2026.1."),
+	# Author(s)
+	addon_author=u"Alejandro Iván Castro Orozco <alivcaor@gmail.com>, Noelia Ruiz Martínez <nrm1977@gmail.com>, Abdel <abdelkrim.bensaid@gmail.com>",
+	# URL for the add-on documentation support
+	addon_url="https://github.com/nvdaes/perky",
+	# URL for the add-on repository where the source code can be found
+	addon_sourceURL=None,
+	# Documentation file name
+	addon_docFileName="readme.html",
+	# Minimum NVDA version supported (e.g. "2019.3.0", minor version is optional)
+	addon_minimumNVDAVersion="2026.1",
+	# Last NVDA version supported/tested (e.g. "2024.4.0", ideally more recent than minimum version)
+	addon_lastTestedNVDAVersion="2026.1",
+	# Add-on update channel (default is None, denoting stable releases,
+	# and for development releases, use "dev".)
+	# Do not change unless you know what you are doing!
+	addon_updateChannel=None,
+	# Add-on license such as GPL 2
+	addon_license=None,
+	# URL for the license document the ad-on is licensed under
+	addon_licenseURL=None,
+)
 
 # Define the python files that are the sources of your add-on.
-# You can use glob expressions here, they will be expanded.
-pythonSources = ["addon/appModules/*.py"]
+# You can either list every file (using ""/") as a path separator,
+# or use glob expressions.
+# For example to include all files with a ".py" extension from the "globalPlugins" dir of your add-on
+# the list can be written as follows:
+# pythonSources = ["addon/globalPlugins/*.py"]
+# For more information on SCons Glob expressions please take a look at:
+# https://scons.org/doc/production/HTML/scons-user/apd.html
+pythonSources: list[str] = ["addon/appModules/*.py"]
 
 # Files that contain strings for translation. Usually your python sources
-i18nSources = pythonSources + ["buildVars.py"]
+i18nSources: list[str] = pythonSources + ["buildVars.py"]
 
 # Files that will be ignored when building the nvda-addon file
 # Paths are relative to the addon directory, not to the root directory of your addon sources.
