@@ -20,6 +20,8 @@ jobs:
   buildAndUpload:
     continue-on-error: true
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
 
     steps:
     - id: checkoutCode
