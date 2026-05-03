@@ -23,7 +23,7 @@ addon_info = AddonInfo(
 	# Translators: Long description to be shown for this add-on on add-on information from add-on store
 	addon_description=_("""Improves the reading experiencewith Perky Duck.\n\tPerky Duck can be found at\n\thttps://www.duxburysystems.com\n\t"""),
 	# version
-	addon_version="10.1.0",
+	addon_version="11.0.0",
 	# Brief changelog for this version
 	# Translators: what's new content for the add-on version to be shown in the add-on store
 	addon_changelog=_("* Compatible with NVDA 2026.1."),
