@@ -1,0 +1,177 @@
+<?xml version="1.0"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0" srcLang="en">
+<file id="readme.md" original="https://raw.githubusercontent.com/nvdaes/perky/d718fed3b7a620abc32a2d88429b7bba03fd7ebb/readme.md">
+<skeleton>
+# $(ID:2d3ad256-47cf-40fb-a52b-13ca635c076d)
+
+*	$(ID:9b28db68-e20e-485a-b1d4-20cb2ae93b77)
+
+$(ID:7ec51c43-2080-4f4c-9f9b-c243102a86f8)
+
+## $(ID:54542d9d-b454-438a-a4e9-c24129f0d5fb)
+
+* $(ID:f72d5ae7-804e-4f1f-92d3-1b80efe6d6e7)
+* $(ID:5b1b611b-c4fc-46fc-a3a9-c1decdaf59ad)
+
+## $(ID:77d3a190-8fec-4bb0-9ab6-01cdeb4e5992)
+
+$(ID:af9ae2ef-5eb9-4dd4-a8b7-2df42744f80f)
+
+* $(ID:c06409dc-4919-40aa-918e-5f99c7a28788)
+* $(ID:f0331441-a285-40f0-a7c0-1ecc29e54ac4)
+
+## $(ID:15d535a7-bf20-4811-9cf8-2724b675cbd3)
+
+* $(ID:17a0f424-69f4-402f-8c56-41af10d5a507)
+
+## $(ID:1fcc94d4-ad30-44da-9177-b1f432f406b7)
+
+* $(ID:a19e86ad-9fca-4d68-9fb2-895eae556759)
+* $(ID:d15d6419-9c07-4df1-a6ac-d918a6871f62)
+* $(ID:10ba82fa-fefb-4690-9b88-85d31613a258)
+
+</skeleton>
+<unit id="2d3ad256-47cf-40fb-a52b-13ca635c076d">
+<notes>
+<note appliesTo="source">line: 2</note>
+<note appliesTo="source">prefix: # </note>
+</notes>
+<segment>
+<source>Perky Duck #</source>
+</segment>
+</unit>
+<unit id="9b28db68-e20e-485a-b1d4-20cb2ae93b77">
+<notes>
+<note appliesTo="source">line: 4</note>
+<note appliesTo="source">prefix: *	</note>
+</notes>
+<segment>
+<source>Authors: Alejandro Iván Castro  Orozco, Noelia Ruiz Martínez</source>
+</segment>
+</unit>
+<unit id="7ec51c43-2080-4f4c-9f9b-c243102a86f8">
+<notes>
+<note appliesTo="source">line: 6</note>
+</notes>
+<segment>
+<source>This add-on is used to improve the reading experience with Perky Duck, available at &lt;https://www.duxburysystems.com&gt;.</source>
+</segment>
+</unit>
+<unit id="54542d9d-b454-438a-a4e9-c24129f0d5fb">
+<notes>
+<note appliesTo="source">line: 8</note>
+<note appliesTo="source">prefix: ## </note>
+</notes>
+<segment>
+<source>Features ##</source>
+</segment>
+</unit>
+<unit id="f72d5ae7-804e-4f1f-92d3-1b80efe6d6e7">
+<notes>
+<note appliesTo="source">line: 10</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>Enables NVDA to detect selection changes when UI Automation is disabled in Perky Duck. Without the add-on, NVDA detects these changes only when UI Automation is enabled.</source>
+</segment>
+</unit>
+<unit id="5b1b611b-c4fc-46fc-a3a9-c1decdaf59ad">
+<notes>
+<note appliesTo="source">line: 11</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>Adds the possibility of using the speak typed characters feature of NVDA in Perky Duck documents.</source>
+</segment>
+</unit>
+<unit id="77d3a190-8fec-4bb0-9ab6-01cdeb4e5992">
+<notes>
+<note appliesTo="source">line: 13</note>
+<note appliesTo="source">prefix: ## </note>
+</notes>
+<segment>
+<source>Commands ##</source>
+</segment>
+</unit>
+<unit id="af9ae2ef-5eb9-4dd4-a8b7-2df42744f80f">
+<notes>
+<note appliesTo="source">line: 15</note>
+</notes>
+<segment>
+<source>The following commands can be assigned from NVDA's menu, Preferences submenu, Input gestures dialog, Perky Duck category. This will be available from Perky Duck documents:</source>
+</segment>
+</unit>
+<unit id="c06409dc-4919-40aa-918e-5f99c7a28788">
+<notes>
+<note appliesTo="source">line: 17</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>Shows the selected text converted to braille using symbols for the current language.</source>
+</segment>
+</unit>
+<unit id="f0331441-a285-40f0-a7c0-1ecc29e54ac4">
+<notes>
+<note appliesTo="source">line: 18</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>Shows the selected text in browse mode.</source>
+</segment>
+</unit>
+<unit id="15d535a7-bf20-4811-9cf8-2724b675cbd3">
+<notes>
+<note appliesTo="source">line: 20</note>
+<note appliesTo="source">prefix: ## </note>
+</notes>
+<segment>
+<source>Changes for 9.0.0 ##</source>
+</segment>
+</unit>
+<unit id="17a0f424-69f4-402f-8c56-41af10d5a507">
+<notes>
+<note appliesTo="source">line: 22</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>Added copy and close buttons to browseable messages.</source>
+</segment>
+</unit>
+<unit id="1fcc94d4-ad30-44da-9177-b1f432f406b7">
+<notes>
+<note appliesTo="source">line: 24</note>
+<note appliesTo="source">prefix: ## </note>
+</notes>
+<segment>
+<source>Changes for 7.0.0 ##</source>
+</segment>
+</unit>
+<unit id="a19e86ad-9fca-4d68-9fb2-895eae556759">
+<notes>
+<note appliesTo="source">line: 26</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>To avoid possible issues, the dialog to add and customize speech symbols dictionaries from Perky Duck documents has been removed.</source>
+</segment>
+</unit>
+<unit id="d15d6419-9c07-4df1-a6ac-d918a6871f62">
+<notes>
+<note appliesTo="source">line: 27</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>The Perky Duck spanish speech symbols dictionary can be enabled or disabled from NVDA's Speech settings dialog.</source>
+</segment>
+</unit>
+<unit id="10ba82fa-fefb-4690-9b88-85d31613a258">
+<notes>
+<note appliesTo="source">line: 28</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>Configuration profiles may be used to enable this or other dictionaries, manually or automatically when the application is active.</source>
+</segment>
+</unit>
+</file>
+</xliff>
