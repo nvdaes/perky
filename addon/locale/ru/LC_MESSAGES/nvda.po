@@ -1,66 +1,76 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the perky package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: perky 1.0.0\n"
-"Report-Msgid-Bugs-To: nvda-translations@groups.io\n"
-"POT-Creation-Date: 2024-04-27 06:45+0000\n"
-"PO-Revision-Date: 2025-07-01 10:46+0300\n"
-"Last-Translator: Ruslan Kolodyazhni <rupelodn@gmail.com>\n"
-"Language-Team: Translators <nvda-translations@groups.io>\n"
+"Project-Id-Version: nvdaaddons\n"
+"Report-Msgid-Bugs-To: 'nvda-translations@groups.io'\n"
+"POT-Creation-Date: 2026-07-21 06:53+0000\n"
+"PO-Revision-Date: 2026-07-21 07:55\n"
+"Last-Translator: \n"
+"Language-Team: Russian\n"
 "Language: ru_RU\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 3.5\n"
+"Plural-Forms: nplurals=4; plural=((n%10==1 && n%100!=11) ? 0 : ((n%10 >= 2 && n%10 <=4 && (n%100 < 12 || n%100 > 14)) ? 1 : ((n%10 == 0 || (n%10 >= 5 && n%10 <=9)) || (n%100 >= 11 && n%100 <= 14)) ? 2 : 3));\n"
+"X-Crowdin-Project: nvdaaddons\n"
+"X-Crowdin-Project-ID: 780748\n"
+"X-Crowdin-Language: ru\n"
+"X-Crowdin-File: perky.pot\n"
+"X-Crowdin-File-ID: 633\n"
 
 #. Translators: message presented in input mode.
-msgid ""
-"Shows the selected text converted to braille using symbols for the current "
-"language"
-msgstr ""
-"Показывает выделенный текст, преобразованный в Брайль с использованием "
-"символов текущего языка"
+#: addon\appModules\perky.py:79
+msgid "Shows the selected text converted to braille using symbols for the current language"
+msgstr "Показывает выделенный текст, преобразованный в Брайль с использованием символов текущего языка"
 
 #. Translators: The message reported when there is no selection
+#: addon\appModules\perky.py:89 addon\appModules\perky.py:115
 msgid "No selection"
 msgstr "Нет выделения"
 
 #. Translators: title of NVDA message showing text converted to braille.
+#: addon\appModules\perky.py:96
 #, python-brace-format
 msgid "Text converted to braille symbols ({languageDescription})"
 msgstr "Текст преобразован в брайлевские символы ({languageDescription})"
 
 #. Translators: message presented in input mode.
+#: addon\appModules\perky.py:105
 msgid "Shows the selected text in browse mode"
 msgstr "Показывает выделенный текст в режиме обзора"
 
 #. Translators: Title for a message dialog showing raw selected text.
+#: addon\appModules\perky.py:121
 msgid "Raw selected text"
 msgstr "Выделен необработанный текст"
 
-#. Add-on summary, usually the user visible name of the addon.
-#. Translators: Summary for this add-on to be shown on installation and add-on information.
+#. Add-on summary/title, usually the user visible name of the add-on
+#. Translators: Summary/title for this add-on
+#. to be shown on installation and add-on information found in add-on store
+#: buildVars.py:20
 msgid "Perky Duck"
 msgstr "Perky Duck"
 
 #. Add-on description
-#. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
-msgid ""
-"Improves the reading experiencewith Perky Duck.\n"
+#. Translators: Long description to be shown for this add-on on add-on information from add-on store
+#: buildVars.py:23
+msgid "Improves the reading experiencewith Perky Duck.\n"
 "\tPerky Duck can be found at\n"
 "\thttps://www.duxburysystems.com\n"
 "\t"
-msgstr ""
-"Улучшает качество чтения с помощью Perky Duck.\n"
+msgstr "Улучшает качество чтения с помощью Perky Duck.\n"
 "\tPerky Duck можно найти по адресу\n"
 "\thttps://www.duxburysystems.com\n"
 "\t"
 
-#. Translators: Display name for a speech symbols dictionary.
+#. Brief changelog for this version
+#. Translators: what's new content for the add-on version to be shown in the add-on store
+#: buildVars.py:28
+msgid "* Restored symbol dictionary for Spanish.\n"
+"* Tested with NVDA 2026.2."
+msgstr ""
+
+#. Translators: Name of the custom speech symbol dictionary for Spanish.
+#: buildVars.py:104
 msgid "Perky Duck (Spanish)"
 msgstr "Perky Duck (Испанский)"
+
