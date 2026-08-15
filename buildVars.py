@@ -22,11 +22,11 @@ addon_info = AddonInfo(
 	# Translators: Long description to be shown for this add-on on add-on information from add-on store
 	addon_description=_('Improves the reading experiencewith Perky Duck.\n\tPerky Duck can be found at\n\thttps://www.duxburysystems.com\n\t'),
 	# version
-	addon_version='11.0.0',
+	addon_version="11.0.0",
 	# Brief changelog for this version
 	# Translators: what's new content for the add-on version to be shown in the add-on store
 	addon_changelog=_("""* Restored symbol dictionary for Spanish.
-* Tested with NVDA 2026.2."""),
+* Updates to translations."""),
 	# Author(s)
 	addon_author='Alejandro Iván Castro Orozco <alivcaor@gmail.com>, Noelia Ruiz Martínez <nrm1977@gmail.com>, Abdel <abdelkrim.bensaid@gmail.com>',
 	# URL for the add-on documentation support
