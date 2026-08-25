@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nvdaaddons\n"
 "Report-Msgid-Bugs-To: 'nvda-translations@groups.io'\n"
 "POT-Creation-Date: 2026-08-18 06:12+0000\n"
-"PO-Revision-Date: 2026-08-18 06:14\n"
+"PO-Revision-Date: 2026-08-25 00:21\n"
 "Last-Translator: \n"
 "Language-Team: Turkish\n"
 "Language: tr_TR\n"
@@ -67,7 +67,8 @@ msgstr "Perky Duck ile okuma deneyimini geliştirir.\n"
 #: buildVars.py:28
 msgid "* Restored symbol dictionary for Spanish.\n"
 "* Updates to translations."
-msgstr ""
+msgstr "* İspanyolca için sembol sözlüğü geri yüklendi.\n"
+"* Çeviriler güncellendi."
 
 #. Translators: Name of the custom speech symbol dictionary for Spanish.
 #: buildVars.py:104
