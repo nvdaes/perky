@@ -1,40 +1,27 @@
 # Perky Duck #
 
-*	Yazarlar: Alejandro Iván Castro Orozco, Noelia Ruiz Martínez
+*	Yazarlar: Alejandro Iván Castro  Orozco, Noelia Ruiz Martínez
 
-Bu eklenti, <https://www.duxburysystems.com> adresinde bulunan Perky Duck
-ile okuma deneyimini geliştirmek için kullanılır.
+Bu eklenti, <https://www.duxburysystems.com> adresinde bulunan Perky Duck ile okuma deneyimini iyileştirmek için kullanılır.
 
 ## Özellikler ##
 
-* Perky Duck'ta UI Otomasyonu devre dışı bırakıldığında NVDA'nın seçim
-  değişikliklerini algılamasını sağlar. Eklenti olmadan, NVDA bu
-  değişiklikleri yalnızca UI Otomasyonu etkinleştirildiğinde algılar.
-* Perky Duck belgelerinde NVDA'nın konuşarak yazılan karakterleri kullanma
-  olanağını ekler.
+* Bu eklenti, Perky Duck'ta kullanıcı arayüzü otomasyonu devre dışı bırakıldığında NVDA'nın seçim değişikliklerini algılamasını sağlar. Eklenti olmadan, NVDA bu değişiklikleri yalnızca kullanıcı arayüzü otomasyonu etkinleştirildiğinde algılar.
+* Perky Duck belgelerinde NVDA'nın yazılan karakterleri sesli olarak okuma özelliğini kullanma olanağı ekler.
 
 ## Komutlar ##
 
-Aşağıdaki komutlar NVDA menüsünden, Tercihler alt menüsünden, Girdi
-hareketleri iletişim kutusundan, Perky Duck kategorisinden atanabilir. Bu
-komutlara Perky Duck belgelerinden ulaşılabilir:
+Aşağıdaki komutlar, NVDA menüsü, Tercihler alt menüsü, Girdi hareketleri iletişim kutusunda, Perky Duck kategorisinden atanabilir. Bu bilgiye Perky Duck belgelerinden ulaşılabilir:
 
-* Geçerli dilin simgeleri kullanılarak braille'e dönüştürülmüş seçili metni
-  gösterir.
-* Seçilen metni göz atma modunda gösterir.
+* Seçilen metni, geçerli dilin sembolleri kullanılarak Braille'e dönüştürülmüş olarak gösterir.
+* Seçilen metni Tarama kipinde gösterir.
 
-## 9.0.0 için değişiklikler ##
+## 9.0.0 İçin Değişiklikler ##
 
-* Göz atılabilir mesajlara kopyala ve kapat düğmeleri eklendi.
+* Taranabilir mesajlara kopyala ve kapat düğmeleri eklendi.
 
-## 7.0.0 için değişiklikler ##
+## 7.0.0 İçin Değişiklikler ##
 
-* Olası sorunlardan kaçınmak için Perky Duck belgelerinden konuşma simgeleri
-  sözlüklerini ekleme ve özelleştirme iletişim kutusu kaldırıldı.
-* Perky Duck ispanyolca konuşma sembolleri sözlüğü, NVDA'nın Konuşma
-  ayarları iletişim kutusundan etkinleştirilebilir veya devre dışı
-  bırakılabilir.
-* Uygulama etkinken bu veya diğer sözlükleri el ile veya otomatik olarak
-  etkinleştirmek için yapılandırma profilleri kullanılabilir.
-
-[[!tag dev stable]]
+* Olası sorunları önlemek amacıyla, Perky Duck belgelerinden konuşma sembolleri sözlüklerini ekleme ve özelleştirme iletişim kutusu kaldırılmıştır.
+* Perky Duck İspanyolca konuşma sembolleri sözlüğü, NVDA'nın Konuşma ayarları iletişim kutusundan etkinleştirilebilir veya devre dışı bırakılabilir.
+* Konfigürasyon profilleri, bu veya diğer sözlükleri manuel olarak veya uygulama etkin olduğunda otomatik olarak etkinleştirmek için kullanılabilir.

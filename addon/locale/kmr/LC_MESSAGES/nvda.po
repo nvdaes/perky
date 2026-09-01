@@ -5,50 +5,50 @@ msgstr ""
 "POT-Creation-Date: 2026-09-01 06:16+0000\n"
 "PO-Revision-Date: 2026-09-01 06:17\n"
 "Last-Translator: \n"
-"Language-Team: Portuguese\n"
-"Language: pt_PT\n"
+"Language-Team: Kurmanji (Kurdish)\n"
+"Language: kmr_TR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Crowdin-Project: nvdaaddons\n"
 "X-Crowdin-Project-ID: 780748\n"
-"X-Crowdin-Language: pt-PT\n"
+"X-Crowdin-Language: kmr\n"
 "X-Crowdin-File: perky.pot\n"
 "X-Crowdin-File-ID: 633\n"
 
 #. Translators: message presented in input mode.
 #: addon\appModules\perky.py:79
 msgid "Shows the selected text converted to braille using symbols for the current language"
-msgstr "Mostra o texto selecionado convertido para braille utilizando os símbolos da língua atual"
+msgstr "Nivîsara bijartî ya ku bi karanîna sembolên ji bo zimanê heyî veguheriye braille nîşan dide."
 
 #. Translators: The message reported when there is no selection
 #: addon\appModules\perky.py:89 addon\appModules\perky.py:115
 msgid "No selection"
-msgstr "Sem seleção"
+msgstr "Hilbijartin tune"
 
 #. Translators: title of NVDA message showing text converted to braille.
 #: addon\appModules\perky.py:96
 #, python-brace-format
 msgid "Text converted to braille symbols ({languageDescription})"
-msgstr "Texto convertido em símbolos braille ({languageDescription})"
+msgstr "Nivîs veguherî sembolên Braille ({languageDescription})"
 
 #. Translators: message presented in input mode.
 #: addon\appModules\perky.py:105
 msgid "Shows the selected text in browse mode"
-msgstr "Mostra o texto selecionado no modo de navegação"
+msgstr "Nivîsara hilbijartî di moda gerokê de nîşan dide"
 
 #. Translators: Title for a message dialog showing raw selected text.
 #: addon\appModules\perky.py:121
 msgid "Raw selected text"
-msgstr "Texto selecionado em bruto"
+msgstr "Nivîsa bijartî ya xav"
 
 #. Add-on summary/title, usually the user visible name of the add-on
 #. Translators: Summary/title for this add-on
 #. to be shown on installation and add-on information found in add-on store
 #: buildVars.py:20
 msgid "Perky Duck"
-msgstr "Perky Duck"
+msgstr "Qazê Zîrek"
 
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on add-on information from add-on store
@@ -57,20 +57,21 @@ msgid "Improves the reading experiencewith Perky Duck.\n"
 "\tPerky Duck can be found at\n"
 "\thttps://www.duxburysystems.com\n"
 "\t"
-msgstr "Melhora a experiência de leitura com o Perky Duck.\n"
-"\tO Perky Duck pode ser encontrado em\n"
+msgstr "Ezmûna xwendinê bi Perky Duck re baştir dike.\n"
+"\tPerky Duck li\n"
 "\thttps://www.duxburysystems.com\n"
-"\t"
+"\ttê dîtin.\t\t"
 
 #. Brief changelog for this version
 #. Translators: what's new content for the add-on version to be shown in the add-on store
 #: buildVars.py:28
 msgid "* Restored symbol dictionary for Spanish.\n"
 "* Updates to translations."
-msgstr ""
+msgstr "* Ferhenga sembolan ji bo spanî hate sererastkirin.\n"
+"* Nûvekirinên wergeran."
 
 #. Translators: Name of the custom speech symbol dictionary for Spanish.
 #: buildVars.py:104
 msgid "Perky Duck (Spanish)"
-msgstr "Perky Duck (Espanhol)"
+msgstr "Qazê Perky (Spanî)"
 
