@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nvdaaddons\n"
 "Report-Msgid-Bugs-To: 'nvda-translations@groups.io'\n"
 "POT-Creation-Date: 2026-10-27 06:16+0000\n"
-"PO-Revision-Date: 2026-10-27 06:17\n"
+"PO-Revision-Date: 2026-10-30 16:15\n"
 "Last-Translator: \n"
 "Language-Team: Russian\n"
 "Language: ru_RU\n"
@@ -66,7 +66,7 @@ msgstr "Улучшает качество чтения с помощью Perky D
 #. Translators: what's new content for the add-on version to be shown in the add-on store
 #: buildVars.py:28
 msgid "* Updates to translations."
-msgstr ""
+msgstr "* Обновлены переводы."
 
 #. Translators: Name of the custom speech symbol dictionary for Spanish.
 #: buildVars.py:103
